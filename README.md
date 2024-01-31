@@ -1,43 +1,30 @@
-<p align="center"> 
-    <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
-</p>
+<h1 align="center"> Software Developer Portfolio Template </h1> 
+<h3 align="center"> Notes for me to maintain and change my portfolio</h3>
 
-<h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio <br /> template for Software Developers! </h3>
+To view my Portfolio, access the `https://makiato1999.github.io/`
+To view the original template and live example, please access the original repository
 
-# Sections 📚
+# Clone and Use 
 
-✔️ Summary and About me\
-✔️ Skills \
-✔️ Open Source Projects Connected with Github\
-✔️ Experience\
-✔️ Certifications 🏆\
-✔️ Blogs\
-✔️ Education\
-✔️ Contact me
-
-To view a live example, **[click here](https://ashutosh1919.github.io/)**
-
-# Clone and Use 📋
-
-- The website is completely built on `react-js` library of `javascript` and that's why we need `nodejs` and `npm` installed
-- While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
-- In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
-- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
-  ```bash
-   git clone https://github.com/ashutosh1919/masterPortfolio.git
-  ```
-  This will clone the whole repository in your system.
-- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
-  ```node
-  npm install
-  ```
+- Fork the original repository first
+- Install `nodejs` and `npm` before running it
+- To download required dependencies by `npm install`
 - Now the project is ready to use
 - You can check it using `npm start`, it will open the website locally on your browser.
+- If it fails and gets the error when you run:
+  ```
+  Error: error:0308010C:digital envelope routines::unsupported
+  ```
+  这个错误通常是由于您的 Node.js 版本（特别是 17 或更高版本）与 OpenSSL 3.0 的不兼容性引起的。
+- Try this in the command line directly (no need to write it in bash)
+  ```
+  export NODE_OPTIONS=--openssl-legacy-provider
+  ```
+- Then run it again by `npm start`
 
-# Customize it to make your own portfolio ✏️
+# Customize it to make your own portfolio
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
+There are 4 things that you need to change: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
 
 ### package.json
 
@@ -127,7 +114,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - You can define your own favicon in `public/icons` directory. If you don't have a favicon, you can generate favicons from [Favicon Generator](https://www.favicon-generator.org/) and [Favicon IO](https://favicon.io/)
 - You can also edit your website preview (known as description image). Run your site locally, take a screenshot and replace with `public/icons/desc.png`. Note that your screenshot should be 1280x640 for better preview.
 
-# Choose Theme 🌈
+# Choose Theme
 
 - You can take a look at `src/theme.js` file where all available themes are mentioned with their respective color codes
 - At the bottom of this file you will see the below code:
@@ -137,7 +124,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - That's it. You just need to change the theme name and the code will take care of everything else
 - Run `npm start` to check if everything is ok.
 
-# Deployment 📦
+# Deployment
 
 - Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
 - I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
@@ -148,7 +135,10 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 
 - Run `npm run build` to generate the production build folder.
 - Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository on github. That's it. It's Done.
+    - which means you can also copy all files in this buid folder, and paste them to your new repository on github
+    - for me, new repository on github is 'Makiato1999.github.io'
 - You may need to `git init` and force push at every new build.
+    - Same as above, you can copy and paste once you change the portfolio
 
 **Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
 
@@ -164,7 +154,7 @@ If you are stuck somewhere and want to observe the deployment process in depth, 
   </a>
 </p>
 
-# Technologies used 🛠️
+# Technologies used
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
@@ -173,6 +163,6 @@ If you are stuck somewhere and want to observe the deployment process in depth, 
 - [react-reveal](https://www.react-reveal.com/)
 - [styled-components](https://styled-components.com/)
 
-# illustrations 🍥
+# illustrations
 
 - [UnDraw](https://undraw.co/illustrations)
