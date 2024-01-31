@@ -412,7 +412,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work & Co-op/Intern",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have had the privilege of working alongside numerous senior software engineers, product managers, and software architects. I thoroughly enjoy collaborating with them, learning from their expertise, and enhancing my skills. I possess a strong self-drive to learn new technologies and continuously iterate on my knowledge. Additionally, I excel in teamwork and communication.",
   header_image_path: "experience.svg",
   sections: [
     {
