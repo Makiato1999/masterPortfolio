@@ -2,6 +2,7 @@
 <h3 align="center"> Notes for me to maintain and change my portfolio</h3>
 
 To view my Portfolio, access the [https://makiato1999.github.io/](https://makiato1999.github.io/)
+<br>
 To view the original template and live example, please access the original repository
 
 # Clone and Use 
